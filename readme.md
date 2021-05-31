@@ -97,7 +97,7 @@ Pour afficher la taille d'un répertoire (ou de l'espace disque global)
 
 ```sh
 # -h affiche les unités en Ko, Mo et Go si nécéssaire
-du -h <folderName>
+$ du -h <folderName>
 ```
 
 exemple `du -h /tmp` qui va afficher la taille du répertoire des fichiers temporaires
@@ -109,7 +109,7 @@ exemple `du -h /tmp` qui va afficher la taille du répertoire des fichiers tempo
 Pour nettoyer les fichiers inutilisés depuis plus de 10 jours
 
 ```sh
-sudo find /tmp -type f -atime +10 -delete
+$ sudo find /tmp -type f -atime +10 -delete
 ```
 
 ### La connexion à mongoDB est échouée
